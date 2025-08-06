@@ -47,7 +47,7 @@ with st.sidebar:
         🎲 Random Surprise awaits! 
     """)
     st.markdown("---")
-    st.info("Made with ❤️ by Srusti the Savage 👸")
+    st.info("Made with ❤️ by Jahnavi Dade")
 
 # 🧠 Main Title
 st.title("💣 Roastify Me")
