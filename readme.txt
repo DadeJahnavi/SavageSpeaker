@@ -1,16 +1,25 @@
-What is Polarity in Sentiment Analysis?
-When we use TextBlob(text).sentiment.polarity, it returns a score between:
+# SavageSpeaker 🔥🗣️
 
--1.0 → very negative
+SavageSpeaker is a fun and interactive Roast + Compliment bot that responds to user inputs with savage roasts or wholesome compliments — your mood, your choice!
 
-0.0 → neutral
+## 💡 Features
 
-+1.0 → very positive
+- 🔥 Savage Roasts that burn (playfully, of course)
+- 💖 Sweet Compliments that make you smile
+- 🗣️ Text-to-Speech support using `gTTS`
+- 🎛️ Choose between Roast or Compliment mode
+- 💻 Simple command-line interface
 
+## 🛠️ Technologies Used
 
+- Python 3
+- `gTTS` for voice synthesis
+- Custom Roast & Compliment Banks
+- CLI (Command Line Interface)
 
-| Range         | Meaning             | Why this range?                              |
-| ------------- | ------------------- | -------------------------------------------- |
-| `> 0.3`       | Clearly positive    | Keeps out weak/flimsy positivity like “okay” |
-| `< -0.1`      | Clearly negative    | Avoids overreacting to mild disappointment   |
-| `-0.1 to 0.3` | Neutral / uncertain | Covers vague, meh, in-between responses      |
+## 🚀 How to Run
+
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/DadeJahnavi/SavageSpeaker.git
+   cd SavageSpeaker
