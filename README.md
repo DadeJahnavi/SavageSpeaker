@@ -54,7 +54,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **Try the App Here:** [SavageSpeaker Web App](https://savage-speaker-dadejahnavi.streamlit.app/)
+🔗 **Try the App Here:** [SavageSpeaker Web App](https://savagespeaker.streamlit.app/)
 
 > 💬 *"Because sometimes... a little sass says it best!"*
 
